@@ -92,7 +92,6 @@ class Manager extends Employee {
         labors.remove(estateLabor);
     }
 
-
     @Override
     public void startWork() {
         System.out.println("Manager "+getEmpName()+" ("+ getEmpId()+ ") "+" started the work for the day at :"+new Date().toString());
